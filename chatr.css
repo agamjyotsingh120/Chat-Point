@@ -1,0 +1,18 @@
+body
+{
+background-image: linear-gradient(to right, #40E0D0, #FF8C00, #FF0080);
+margin-top:30px;
+}
+.header img
+{
+	width: 70px;
+    margin-left: -5px;
+}
+#logout
+{
+	font-size: 20px; float: right;
+}
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
