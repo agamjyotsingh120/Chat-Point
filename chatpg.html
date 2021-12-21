@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>
+        Chat Point
+    </title>
+    <link rel="stylesheet" type="text/css" href="chatpg.css">
+    <script src="chat.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    
+        <center>
+            <h1 class="header">	
+                Chat Point	<sup>
+            <img src="https://play-lh.googleusercontent.com/OY4rxeNTPaHwyOTZ-RUooqJvPnO5QUYmQcw0dhD90Mu6UWItOSZfQv7ks_FscbBow0M">
+            </sup>
+        </h1>
+        <div class="container">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()"
+            >Logout</button>
+            <div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+	</center>
+</div>
+
+<center>
+	<div class="input_div_message_page" >
+		<label>Send:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Message">
+		<button class="btn btn-success" onclick="send()">Send</button>
+	</div>
+</center>
+
+<script src="chatpg.js"></script>
+</body>
+</html>
