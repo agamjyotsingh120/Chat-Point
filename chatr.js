@@ -26,11 +26,11 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
  });});}
 getData();
 
-function redirect()
+function addRoom()
 {
  console.log(name);
  localStorage.setItem("room_name", name);
- window.location = "kwitter_page.html";
+ window.location = "chatpg.html";
 }
 
 
